@@ -22,3 +22,5 @@ docker run -it --rm -v "$(pwd):/data" pds4-workshop lddtool --version
 Note
 ----
 - [OpenJDK Docker images](https://hub.docker.com/_/openjdk/) are depreciated, we use [AWS Corretto](https://hub.docker.com/_/amazoncorretto) instead.
+- [PDS validate](https://github.com/NASA-PDS/validate) version: `3.6.0`
+- [PDS LDD tool](https://github.com/NASA-PDS/pds4-information-model) version: `15.1.0`

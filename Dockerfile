@@ -2,7 +2,7 @@
 FROM amazoncorretto:23-alpine
 
 # PDS Validate Tool (https://nasa-pds.github.io/validate/)
-ENV PDS4_VALIDATE_VERSION "3.5.2"
+ENV PDS4_VALIDATE_VERSION "3.6.0"
 
 # PDS4 Local Data Dictionary Tool (https://nasa-pds.github.io/pds4-information-model/model-lddtool/)
 ENV PDS4_LDDTOOL_VERSION "15.1.0"
