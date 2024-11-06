@@ -1,5 +1,5 @@
 # OpenJDK Docker images are depreciated, use AWS Corretto instead.
-FROM amazoncorretto:23-alpine
+FROM amazoncorretto:23-alpine3.20
 
 # PDS Validate Tool (https://nasa-pds.github.io/validate/)
 ENV PDS4_VALIDATE_VERSION "3.6.0"
